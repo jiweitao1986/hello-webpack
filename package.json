@@ -1,0 +1,33 @@
+{
+  "name": "hello-webpack",
+  "version": "1.0.0",
+  "description": "hello webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config",
+    "lib": "webpack --config webpack.lib.config",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "witt",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "date-fns": "^2.16.1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "rxjs": "^6.6.3",
+    "vant": "^2.10.2",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3"
+  }
+}
